@@ -119,11 +119,12 @@ namespace Tyuiu.GofmanDV.Sprint6.Task1.V29
             // labelStopStep_GDV
             // 
             this.labelStopStep_GDV.AutoSize = true;
-            this.labelStopStep_GDV.Location = new System.Drawing.Point(145, 21);
+            this.labelStopStep_GDV.Location = new System.Drawing.Point(145, 22);
             this.labelStopStep_GDV.Name = "labelStopStep_GDV";
             this.labelStopStep_GDV.Size = new System.Drawing.Size(89, 17);
             this.labelStopStep_GDV.TabIndex = 2;
             this.labelStopStep_GDV.Text = "Конец шага:";
+            this.labelStopStep_GDV.Click += new System.EventHandler(this.labelStopStep_GDV_Click);
             // 
             // textBoxStopStep_GDV
             // 

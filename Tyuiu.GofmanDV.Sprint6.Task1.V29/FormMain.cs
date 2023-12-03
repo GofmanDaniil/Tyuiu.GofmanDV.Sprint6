@@ -57,5 +57,10 @@ namespace Tyuiu.GofmanDV.Sprint6.Task1.V29
         {
             MessageBox.Show("Таск 1 выполнил студент группы СМАРТб-23-1 Гофман Даниил Викторович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void labelStopStep_GDV_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
