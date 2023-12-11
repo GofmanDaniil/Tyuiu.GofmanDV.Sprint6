@@ -34,13 +34,13 @@ namespace Tyuiu.GofmanDV.Sprint6.Task0.V25
             this.textBoxTask_GDV = new System.Windows.Forms.TextBox();
             this.pictureBoxTask_GDV = new System.Windows.Forms.PictureBox();
             this.groupBoxInputData_GDV = new System.Windows.Forms.GroupBox();
+            this.textBoxVarX_GDV = new System.Windows.Forms.TextBox();
             this.labelInputData_GDV = new System.Windows.Forms.Label();
             this.groupBoxOutputData_GDV = new System.Windows.Forms.GroupBox();
             this.textBoxRezult_GDV = new System.Windows.Forms.TextBox();
             this.labelOutputData_GDV = new System.Windows.Forms.Label();
             this.buttonPushMe_GDV = new System.Windows.Forms.Button();
             this.buttonHelp_GDV = new System.Windows.Forms.Button();
-            this.textBoxVarX_GDV = new System.Windows.Forms.TextBox();
             this.groupBoxTask_GDV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTask_GDV)).BeginInit();
             this.groupBoxInputData_GDV.SuspendLayout();
@@ -71,9 +71,9 @@ namespace Tyuiu.GofmanDV.Sprint6.Task0.V25
             // pictureBoxTask_GDV
             // 
             this.pictureBoxTask_GDV.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxTask_GDV.Image")));
-            this.pictureBoxTask_GDV.Location = new System.Drawing.Point(562, 22);
+            this.pictureBoxTask_GDV.Location = new System.Drawing.Point(552, 21);
             this.pictureBoxTask_GDV.Name = "pictureBoxTask_GDV";
-            this.pictureBoxTask_GDV.Size = new System.Drawing.Size(207, 122);
+            this.pictureBoxTask_GDV.Size = new System.Drawing.Size(217, 105);
             this.pictureBoxTask_GDV.TabIndex = 1;
             this.pictureBoxTask_GDV.TabStop = false;
             // 
@@ -87,6 +87,13 @@ namespace Tyuiu.GofmanDV.Sprint6.Task0.V25
             this.groupBoxInputData_GDV.TabIndex = 1;
             this.groupBoxInputData_GDV.TabStop = false;
             this.groupBoxInputData_GDV.Text = "Ввод данных:";
+            // 
+            // textBoxVarX_GDV
+            // 
+            this.textBoxVarX_GDV.Location = new System.Drawing.Point(7, 43);
+            this.textBoxVarX_GDV.Name = "textBoxVarX_GDV";
+            this.textBoxVarX_GDV.Size = new System.Drawing.Size(100, 22);
+            this.textBoxVarX_GDV.TabIndex = 1;
             // 
             // labelInputData_GDV
             // 
@@ -144,13 +151,6 @@ namespace Tyuiu.GofmanDV.Sprint6.Task0.V25
             this.buttonHelp_GDV.Text = "?";
             this.buttonHelp_GDV.UseVisualStyleBackColor = true;
             this.buttonHelp_GDV.Click += new System.EventHandler(this.buttonHelp_GDV_Click);
-            // 
-            // textBoxVarX_GDV
-            // 
-            this.textBoxVarX_GDV.Location = new System.Drawing.Point(7, 43);
-            this.textBoxVarX_GDV.Name = "textBoxVarX_GDV";
-            this.textBoxVarX_GDV.Size = new System.Drawing.Size(100, 22);
-            this.textBoxVarX_GDV.TabIndex = 1;
             // 
             // FormMain
             // 
